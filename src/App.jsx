@@ -34,10 +34,13 @@ import Page2 from './components/Page2'
 import Gallery from './Gallery'
 import Feature from './components/Feature'
 import GetStarted from './components/GetStarted'
+import CylinderShape from './components/CylinderShape'
+
 
 const App = () => {
   return (
     <div>
+      
       <Navbar />
       <div id="hero">
         <Hero />
@@ -46,7 +49,8 @@ const App = () => {
         <Page2 />
       </div>
       <div id="explore">
-        <Gallery />
+        {/* <Gallery /> */}
+        <CylinderShape/>
       </div>
       <div id="contact">
         <Feature />

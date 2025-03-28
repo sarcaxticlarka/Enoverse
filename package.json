@@ -10,8 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@react-three/drei": "^10.0.5",
+    "@react-three/fiber": "^9.1.0",
+    "@react-three/postprocessing": "^3.0.4",
     "@splinetool/react-spline": "^4.0.0",
     "@tailwindcss/vite": "^4.0.15",
+    "@types/three": "^0.174.0",
     "framer-motion": "^12.6.2",
     "gsap": "^3.12.7",
     "react": "^19.0.0",
