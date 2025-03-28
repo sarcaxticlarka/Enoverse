@@ -40,11 +40,11 @@ import { OrbitControls } from "@react-three/drei";
 import { Bloom, EffectComposer, ToneMapping } from "@react-three/postprocessing";
 import { motion } from "framer-motion";
 import Cyl from "./Cyl";
-import "./style.css";
+// import "./style.css";
 
 const CylinderShape = () => {
     return (
-        <div className="h-screen relative overflow-hidden">
+        <div className="h-screen relative bg-black overflow-hidden">
             {/* Moving Text Background */}
             <motion.div
                 className="absolute top-1/3 w-full text-white font-bold opacity-30 text-[9vw] whitespace-nowrap"
